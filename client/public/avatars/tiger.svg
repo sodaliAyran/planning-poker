@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <!-- body -->
+  <ellipse cx="40" cy="54" rx="22" ry="19" fill="#F09040"/>
+  <!-- stripes on body -->
+  <ellipse cx="30" cy="52" rx="3" ry="10" fill="#C06820" opacity="0.6" transform="rotate(-15 30 52)"/>
+  <ellipse cx="50" cy="52" rx="3" ry="10" fill="#C06820" opacity="0.6" transform="rotate(15 50 52)"/>
+  <!-- head -->
+  <circle cx="40" cy="29" r="19" fill="#F09040"/>
+  <!-- ears -->
+  <polygon points="22,17 15,3 31,13" fill="#F09040"/>
+  <polygon points="58,17 65,3 49,13" fill="#F09040"/>
+  <polygon points="23,16 18,7 29,13" fill="#FFCBA4"/>
+  <polygon points="57,16 62,7 51,13" fill="#FFCBA4"/>
+  <!-- forehead stripes -->
+  <ellipse cx="34" cy="17" rx="2" ry="5" fill="#C06820" opacity="0.7" transform="rotate(-10 34 17)"/>
+  <ellipse cx="40" cy="15" rx="2" ry="5" fill="#C06820" opacity="0.7"/>
+  <ellipse cx="46" cy="17" rx="2" ry="5" fill="#C06820" opacity="0.7" transform="rotate(10 46 17)"/>
+  <!-- muzzle -->
+  <ellipse cx="40" cy="35" rx="10" ry="8" fill="#FAE0D0"/>
+  <!-- eyes -->
+  <circle cx="32" cy="26" r="4.5" fill="#1a1a1a"/>
+  <circle cx="48" cy="26" r="4.5" fill="#1a1a1a"/>
+  <circle cx="33.5" cy="24.5" r="1.6" fill="white"/>
+  <circle cx="49.5" cy="24.5" r="1.6" fill="white"/>
+  <!-- nose -->
+  <polygon points="40,31 37,33 43,33" fill="#FF7070"/>
+  <!-- whisker dots -->
+  <circle cx="30" cy="34" r="1" fill="#C06820"/>
+  <circle cx="34" cy="36" r="1" fill="#C06820"/>
+  <circle cx="46" cy="36" r="1" fill="#C06820"/>
+  <circle cx="50" cy="34" r="1" fill="#C06820"/>
+  <!-- mouth -->
+  <path d="M37,34 Q40,38 43,34" stroke="#1a1a1a" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+</svg>
