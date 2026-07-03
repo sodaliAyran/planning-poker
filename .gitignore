@@ -1,5 +1,6 @@
 node_modules/
 dist/
+shared/src/*.js
 .env
 .env.local
 *.log
