@@ -5,5 +5,3 @@ client/dist
 *.log
 .git
 .DS_Store
-# .npmrc is intentionally NOT ignored here — the Dockerfile copies it into the
-# builder stage only (it is removed from the final image after install).
