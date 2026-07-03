@@ -6,7 +6,7 @@ COPY package*.json ./
 COPY shared/package.json ./shared/
 COPY server/package*.json ./server/
 COPY client/package*.json ./client/
-RUN npm ci
+RUN NODE_OPTIONS=--max-old-space-size=460 npm ci --maxsockets=1
 
 COPY shared/ ./shared/
 COPY server/ ./server/
@@ -25,7 +25,7 @@ COPY server/package*.json ./server/
 COPY client/package.json ./client/
 
 # Install server production deps only (express, socket.io, nanoid)
-RUN npm ci --workspace=server --omit=dev
+RUN NODE_OPTIONS=--max-old-space-size=460 npm ci --workspace=server --omit=dev --maxsockets=1
 
 # Copy compiled server and built client from builder
 COPY --from=builder /app/server/dist ./server/dist
