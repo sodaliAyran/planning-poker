@@ -8,7 +8,7 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "@poker/shared": "*",
+    "@poker/shared": "workspace:*",
     "express": "^4.19.2",
     "nanoid": "^5.0.7",
     "socket.io": "^4.7.5"
